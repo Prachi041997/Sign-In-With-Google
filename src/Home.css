@@ -1,0 +1,65 @@
+.nav {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(49, 151, 121);
+    display: flex;
+    justify-content: flex-end
+}
+.profile {
+    min-width: 10%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center
+}
+.image {
+    width: 60px;
+    height: 60px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 20px;
+    letter-spacing: 1px
+}
+.signout {
+    min-width: 20px;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.link {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    /* text-transform: uppercase; */
+    color: rgb(241, 253, 250);
+    text-decoration: none;
+    cursor: pointer;
+}
+.body {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.body img {
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
